@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open sans', sans-serif, Arial, Helvetica; 
+    font-size: 18px;
+    background-color: #EDEAEA;
+}
+
+header {
+    height: 100px;
+    padding: 0 20px;
+    
+    background-color: #BE89CB;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#menuNavegacao {
+    display: flex; 
+    gap: 40px; 
+}
+
+ul, ol {
+    list-style: none;
+}
+
+#menuNavegacao li a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+#menuNavegacao li a:hover {
+    border-bottom: 2px solid white;
+}
+
+main {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+section {
+    padding: 45px 30px; 
+    margin: auto;
+    width: 960px;    
+}
+
+.article-container {
+    text-align: center;
+    font-family: 'ABeeZee', Times New Roman;
+    font-size: 16px;
+    
+}
+
+.article-container  p {
+    padding: 20px 0;
+    text-align: justify;
+    align-items: center;
+}
+
+.sub-section {
+    background-color: #dbd9d9;
+    width: 100%;
+    font-size: 'Open Sans', sans-serif, Arial, Helvetica;
+}
+
+h1 {
+    font-size: 1.75em;
+    color: #FF4DBC;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+h2 {
+    font-size: 1.25em;
+    color: #828282;
+}
+
+h3 {
+    color: #FF4DBC;
+    display: flex;
+    font-family: 'Open sans', sans-serif, Arial, Helvetica;
+    
+}
+
+h4 {
+    color: #828282;
+    padding: 10px 0;
+    font-family: 'Open sans', sans-serif, Arial, Helvetica; 
+    padding-top: 60px;
+}
+
+.referencia-projeto small{
+    padding: 20px 0;
+}
+.subparagrafo {
+    font-family:'ABeeZee', Times New Roman;
+    text-align: justify;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+
+section ul {
+    max-width: 760px;
+    margin: auto;
+}
+
+.foto-perfil {
+    width: 150px;
+    border: 5px solid #BE89CB;
+
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.foto-perfil:hover {
+    opacity: 0.6;
+} 
+
+.footer {
+    background-color: #BE89CB;
+    padding: 30px 100px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 40px;
+    
+}
+
+.icone {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+i {
+    margin-right: 10px;
+}
